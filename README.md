@@ -1,6 +1,6 @@
 # S. PARKER PORTFOLIO 
 
-This is the version of my portfolio 
+This is the version of my portfolio using React.
 
 
 ### Screenshot 
