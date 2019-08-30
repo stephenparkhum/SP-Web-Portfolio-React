@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "name": "sp-portfolio",
+    "alias": "stephenparkhum-sp-portfolio",
+    "routes": [
+        {
+          "src": "^/static/(.*)",
+          "dest": "/static/$1"
+        },
+        {
+          "src": ".*",
+          "dest": "/index.html"
+        }
+    ]
+  }
