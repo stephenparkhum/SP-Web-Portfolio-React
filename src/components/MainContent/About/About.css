@@ -1,0 +1,18 @@
+.About-info {
+    width: 75%;
+}
+
+.About-info img {
+    width: 200px;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    -moz-box-shadow:    3px 3px 5px 6px var(--med-blue-shadow);
+    -webkit-box-shadow: 3px 3px 5px 6px var(--med-blue-shadow);
+    box-shadow:         3px 3px 5px 6px var(--med-blue-shadow);
+}
+
+.About-info p {
+    line-height: 30px;
+
+}
