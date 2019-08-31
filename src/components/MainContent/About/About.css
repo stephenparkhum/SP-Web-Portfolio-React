@@ -1,5 +1,6 @@
 .About-info {
     width: 75%;
+    margin-bottom: 75px;
 }
 
 .About-info img {
@@ -15,4 +16,27 @@
 .About-info p {
     line-height: 30px;
     margin-top: 45px;
+}
+
+.About-info h3 {
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.About-lang {
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.About-lang svg {
+    padding-top: 0;
+    color: var(--med-blue);
+    padding-right: 25px;
+    align-self: center;
+}
+
+.About-lang svg:hover {
+    color: var(--blue);
 }

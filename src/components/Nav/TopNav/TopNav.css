@@ -5,10 +5,15 @@
     align-items: center;
     border-bottom: 1px solid var(--med-blue-shadow);
     padding: 0 25px;
-    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 9999;
     -moz-box-shadow:    3px 3px 5px 2px var(--med-blue-shadow);
     -webkit-box-shadow: 3px 3px 5px 2px var(--med-blue-shadow);
     box-shadow:         3px 3px 5px 2px var(--med-blue-shadow);
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .TopNav h1 {

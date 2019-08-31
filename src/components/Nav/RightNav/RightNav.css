@@ -21,6 +21,10 @@ aside a:hover {
     color: var(--med-blue);
 }
 
+aside nav {
+    align-self: center;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
