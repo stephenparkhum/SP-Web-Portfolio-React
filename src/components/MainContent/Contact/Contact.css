@@ -1,0 +1,23 @@
+.Contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Contact-info ul li {
+    padding-bottom: 30px; 
+    margin: 0;
+}
+
+.Contact-info ul li a {
+    text-decoration: none; 
+    color: black;
+}
+
+.Contact-info svg {
+    color: var(--med-blue);
+}
+
+.Contact-info svg:hover {
+    color: var(--blue);
+}

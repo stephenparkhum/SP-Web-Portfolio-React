@@ -1,11 +1,11 @@
 .PortfolioApp-main {
     border: 2px solid var(--med-blue);
-    width: 60%;
+    width: 80%;
     max-width: 750px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: space-around;
+    justify-content: center;
+    align-content: flex-start;
     margin: 0 0 35px 0;
     -moz-box-shadow:    3px 3px 5px 6px var(--med-blue-shadow);
     -webkit-box-shadow: 3px 3px 5px 6px var(--med-blue-shadow);
@@ -13,18 +13,21 @@
 }
 
 .PortfolioApp-main img {
-    width: 100px;
-    flex-grow: 1;
+    width: 200px;
+    height: 100%;
+    align-self: center;
 }
 
 .PortfolioApp-info {
-    flex-grow: 2;
-    padding: 10px 20px;
+    padding: 0 0 0 20px;
+    width: 80%;
+
 }
 
 .PortfolioApp-info p {
     line-height: 25px; 
-    width: 90%;
+    padding-bottom: 5px;
+    width: 70%;
 }
 
 .PortfolioApp-links {
@@ -57,6 +60,8 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background-color: var(--med-blue);
+    width: 100%;
 }
 
 

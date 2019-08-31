@@ -28,9 +28,9 @@ class Portfolio extends Component {
             <>
             <h2>Portfolio</h2>
             <div className="Portfolio-languages">
-                <FontAwesomeIcon icon={faJsSquare} size="2x" color={blue} />
-                <FontAwesomeIcon icon={faReact} size="2x" color={blue} />
-                <FontAwesomeIcon icon={faNodeJs} size="2x" color={blue} />
+                <FontAwesomeIcon icon={faJsSquare} size="4x" color={blue} />
+                <FontAwesomeIcon icon={faReact} size="4x" color={blue} />
+                <FontAwesomeIcon icon={faNodeJs} size="4x" color={blue} />
             </div>
             {displayPort}
             </>

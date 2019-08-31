@@ -4,7 +4,10 @@ import './MainContent.css';
 class MainContent extends Component {
     render() { 
         return ( 
-            <h2>I make shit.</h2>
+            <div className="MainContent-main">
+                <h2>I create stuff with <br />JavaScript, HTML, CSS & React</h2>
+            </div>
+            
          );
     }
 }
