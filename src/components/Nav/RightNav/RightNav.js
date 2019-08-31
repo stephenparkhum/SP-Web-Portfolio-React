@@ -7,9 +7,9 @@ function RightNav() {
         <> 
         <nav>
             <ul>
-                <NavLink to="/about"><li>ABOUT</li></NavLink>
-                <NavLink to="/portfolio"><li>PORTFOLIO</li></NavLink>
-                <NavLink to="/contact"><li>CONTACT</li></NavLink>
+                <NavLink to="/about" activeClassName="RightNav-active"><li>ABOUT</li></NavLink>
+                <NavLink to="/portfolio" activeClassName="RightNav-active"><li>PORTFOLIO</li></NavLink>
+                <NavLink to="/contact" activeClassName="RightNav-active"><li>CONTACT</li></NavLink>
             </ul>
         </nav>
         </>

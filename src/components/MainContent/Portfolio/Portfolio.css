@@ -1,0 +1,15 @@
+.Portfolio-languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.Portfolio-languages svg {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.Portfolio-languages svg:hover {
+    color: var(--blue);
+}

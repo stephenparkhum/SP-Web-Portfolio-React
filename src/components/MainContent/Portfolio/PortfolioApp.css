@@ -48,6 +48,10 @@
     cursor: pointer;
 }
 
+.PortfolioApp-links button:hover {
+    color: var(--blue);
+}
+
 .PortfolioApp-tags {
     display: flex;
     flex-direction: row;

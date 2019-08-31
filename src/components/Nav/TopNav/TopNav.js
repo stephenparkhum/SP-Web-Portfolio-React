@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 import './TopNav.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
@@ -11,7 +12,7 @@ class TopNav extends Component {
         return (
             <nav className="TopNav">
                 <div className="TopNav-name">
-                    <h1>Stephen Parker // <span>Full-Stack Developer</span></h1>
+                    <Link to="/"><h1>Stephen Parker // <span>Full-Stack Developer</span></h1></Link>
                 </div>
                 <div className="TopNav-links">
                     <ul>

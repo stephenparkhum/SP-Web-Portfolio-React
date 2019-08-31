@@ -25,8 +25,8 @@
     text-decoration: none;
 }
 
-.TopNav-links ul a:hover {
-    font-weight: normal;
+.TopNav-links ul a svg:hover {
+    color: var(--blue);
 }
 
 .TopNav-links ul {

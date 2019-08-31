@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Route} from 'react-router-dom';
+import MainContent from '../MainContent/MainContent';
 import TopNav from '../Nav/TopNav/TopNav';
 import RightNav from '../Nav/RightNav/RightNav';
 import Portfolio from '../MainContent/Portfolio/Portfolio';
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path='/' component={RightNav} />
           </aside>
           <main>
+            <Route exact path="/" component={MainContent} />
             <Route path="/about" component={About} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
