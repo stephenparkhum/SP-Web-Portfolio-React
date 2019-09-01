@@ -1,3 +1,10 @@
+@media only screen and (max-width: 700px) {
+.Portfolio-main {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+
 .Portfolio-main h2 {
     margin-bottom: 50px;
 }
@@ -17,3 +24,30 @@
 .Portfolio-languages svg:hover {
     color: var(--blue);
 }
+    
+}
+
+@media only screen and (min-width: 701px) {
+    
+.Portfolio-main h2 {
+    margin-bottom: 50px;
+}
+
+.Portfolio-languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+
+.Portfolio-languages svg {
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.Portfolio-languages svg:hover {
+    color: var(--blue);
+}
+    
+}
+
