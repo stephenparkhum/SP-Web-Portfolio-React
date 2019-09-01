@@ -16,8 +16,8 @@ class TopNav extends Component {
                 </div>
                 <div className="TopNav-links">
                     <ul>
-                        <a href="http://github.com/stephenparkhum" target="_blank"><li><FontAwesomeIcon icon={faGithub} color={blue} size="2x"/></li></a>
-                        <a href="https://www.linkedin.com/in/stephenparker-03/" target="_blank"><li><FontAwesomeIcon color={blue} icon={faLinkedin} size="2x"/></li></a>
+                        <a href="http://github.com/stephenparkhum" target="_blank" rel="noopener noreferrer"><li><FontAwesomeIcon icon={faGithub} color={blue} size="2x"/></li></a>
+                        <a href="https://www.linkedin.com/in/stephenparker-03/" target="_blank" rel="noopener noreferrer"><li><FontAwesomeIcon color={blue} icon={faLinkedin} size="2x"/></li></a>
                     </ul>
                 </div>
             </nav>

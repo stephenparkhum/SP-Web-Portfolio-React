@@ -5,7 +5,11 @@ class MainContent extends Component {
     render() { 
         return ( 
             <div className="MainContent-main">
-                <h2>I create stuff with <br />JavaScript, HTML, CSS & React</h2>
+                <div className="MainContent-inner">
+                <p>I create things on the web with the computational chicken scratch…</p>
+                <p>HTML, CSS, JavaScript, React & NodeJS</p>
+                </div>
+                
             </div>
             
          );

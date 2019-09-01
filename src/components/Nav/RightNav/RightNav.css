@@ -1,6 +1,7 @@
 aside {
     position: fixed;
     right: 0;
+    bottom: 0;
     text-align: right;
     font-weight: lighter;
     font-size: 20px;
@@ -8,6 +9,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 aside a {

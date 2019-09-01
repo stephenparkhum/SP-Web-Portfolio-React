@@ -1,7 +1,16 @@
+.Contact-info {
+    border: 1px solid red;
+}
+
+
 .Contact-info ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .Contact-info ul li {

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faNodeJs, faPython, faHtml5, faReact, faCss3 } from '@fortawesome/free-brands-svg-icons';
-import ReactTooltip from 'react-tooltip'
+import { faJs, faNodeJs, faPython, faReact} from '@fortawesome/free-brands-svg-icons';
 import './About.css';
 
 class About extends Component {

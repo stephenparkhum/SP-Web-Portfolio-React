@@ -14,7 +14,7 @@ class PortfolioApp extends Component {
         
         return ( 
             <div className="PortfolioApp-main">
-                <img src={this.props.imgSrc}/>
+                <img src={this.props.imgSrc} alt={`${this.props.title}`}/>
                 <div className="PortfolioApp-info">
                     <h3>{this.props.title}</h3>
                     <p>{this.props.description}</p>

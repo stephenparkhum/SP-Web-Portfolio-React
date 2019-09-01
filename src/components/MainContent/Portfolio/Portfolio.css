@@ -1,3 +1,7 @@
+.Portfolio-main h2 {
+    margin-bottom: 50px;
+}
+
 .Portfolio-languages {
     display: flex;
     flex-direction: row;

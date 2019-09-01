@@ -9,7 +9,7 @@ function RightNav() {
             <ul>
                 <NavLink to="/about" activeClassName="RightNav-active"><li>ABOUT</li></NavLink>
                 <NavLink to="/portfolio" activeClassName="RightNav-active"><li>PORTFOLIO</li></NavLink>
-                <NavLink to="/contact" activeClassName="RightNav-active"><li>CONTACT</li></NavLink>
+                <a href="mailto:stephenparkhum@outlook.com"><li>CONTACT</li></a>
             </ul>
         </nav>
         </>
