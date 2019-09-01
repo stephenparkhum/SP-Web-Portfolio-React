@@ -1,49 +1,110 @@
-.TopNav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--med-blue-shadow);
-    padding: 0 25px;
-    width: 100%;
-    background-color: white;
-    z-index: 9999;
-    -moz-box-shadow:    3px 3px 5px 2px var(--med-blue-shadow);
-    -webkit-box-shadow: 3px 3px 5px 2px var(--med-blue-shadow);
-    box-shadow:         3px 3px 5px 2px var(--med-blue-shadow);
-    position: fixed;
-    top: 0;
-    left: 0;
+@media only screen and (min-width: 701px) {
+    .TopNav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--med-blue-shadow);
+        padding: 0 25px;
+        width: 100%;
+        background-color: white;
+        z-index: 9999;
+        -moz-box-shadow:    3px 3px 5px 2px var(--med-blue-shadow);
+        -webkit-box-shadow: 3px 3px 5px 2px var(--med-blue-shadow);
+        box-shadow:         3px 3px 5px 2px var(--med-blue-shadow);
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    .TopNav h1 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+    
+    .TopNav-name span {
+        color: var(--med-blue);
+    }
+    
+    .TopNav a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .TopNav-links ul a svg:hover {
+        color: var(--blue);
+    }
+    
+    .TopNav-links ul {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .TopNav-links ul li {
+        padding: 0 25px;
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 0;
+    }
 }
 
-.TopNav h1 {
-    font-size: 25px;
-    font-weight: normal;
+@media only screen and (max-width: 700px) {
+    .TopNav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid var(--med-blue-shadow);
+        padding: 25px 25px;
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        z-index: 9999;
+        -moz-box-shadow:    3px 3px 5px 2px var(--med-blue-shadow);
+        -webkit-box-shadow: 3px 3px 5px 2px var(--med-blue-shadow);
+        box-shadow:         3px 3px 5px 2px var(--med-blue-shadow);
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .TopNav svg {
+        display: none;
+    }
+    
+    .TopNav h1 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: normal;
+    }
+    
+    .TopNav-name span {
+        color: var(--med-blue);
+    }
+    
+    .TopNav a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .TopNav-links ul a svg:hover {
+        color: var(--blue);
+    }
+    
+    .TopNav-links ul {
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .TopNav-links ul li {
+        padding: 0 25px;
+        font-size: 20px;
+        font-weight: lighter;
+        margin: 0;
+    }
 }
 
-.TopNav-name span {
-    color: var(--med-blue);
-}
-
-.TopNav a {
-    color: black;
-    text-decoration: none;
-}
-
-.TopNav-links ul a svg:hover {
-    color: var(--blue);
-}
-
-.TopNav-links ul {
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center;
-}
-
-.TopNav-links ul li {
-    padding: 0 25px;
-    font-size: 20px;
-    font-weight: lighter;
-    margin: 0;
-}

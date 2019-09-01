@@ -8,7 +8,7 @@ class PortfolioApp extends Component {
     render() { 
         const getTags = this.props.tags.map(tag => {
             return (
-                <button className="PortfolioApp-tags">{tag}</button>
+                <button className="PortfolioApp-tags" key={`1_${tag}`}>{tag}</button>
             )
         })
         

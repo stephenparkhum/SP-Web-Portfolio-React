@@ -1,45 +1,100 @@
-aside {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    text-align: right;
-    font-weight: lighter;
-    font-size: 20px;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+@media only screen and (max-width: 700px) {
+    aside {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        text-align: right;
+        font-weight: lighter;
+        width: 100%;
+        z-index: 1000;
+        
+    }
+    
+    aside a {
+        color: black;
+        text-decoration: none;
+    
+    }
+    
+    aside a:hover {
+        font-weight: normal;
+        color: var(--med-blue);
+    }
+    
+    aside nav {
+        align-self: center;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        background-color: var(--med-blue);
+        padding: 0;
+        width: 100%;
+    }
+    
+    nav ul li {
+        list-style: none;
+        align-self: center;
+        padding: 20px 20px 20px 20px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    .RightNav-active {
+        font-weight: normal;
+    }
 }
 
-aside a {
-    color: black;
-    text-decoration: none;
 
+@media only screen and (min-width: 701px) {
+    aside {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+        font-weight: lighter;
+        font-size: 20px;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    aside a {
+        color: black;
+        text-decoration: none;
+    
+    }
+    
+    aside a:hover {
+        font-weight: normal;
+        color: var(--med-blue);
+    }
+    
+    aside nav {
+        align-self: center;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 0 50px 50px 50px;
+    }
+    
+    .RightNav-active {
+        font-weight: normal;
+    }
 }
 
-aside a:hover {
-    font-weight: normal;
-    color: var(--med-blue);
-}
 
-aside nav {
-    align-self: center;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-nav ul li {
-    list-style: none;
-    padding: 0 50px 50px 50px;
-}
-
-.RightNav-active {
-    font-weight: normal;
-}

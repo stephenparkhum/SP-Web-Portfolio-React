@@ -1,11 +1,29 @@
-main {
-    width: 75%;
-    margin: 0 auto;
-    position: absolute;
-    top: 15%;
-    left: 10%;
+@media only screen and (max-width: 700px) {
+    main {
+        width: 80%;
+        margin: 0 auto;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    
+    main h2 {
+        font-weight: normal;
+    }
 }
 
-main h2 {
-    font-weight: normal;
+@media only screen and (min-width: 701px) {
+    main {
+        width: 75%;
+        margin: 0 auto;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    
+    main h2 {
+        font-weight: normal;
+    }
 }
+
+
