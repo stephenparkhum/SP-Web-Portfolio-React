@@ -26,7 +26,7 @@ let portfolioStore = [
         description: `genriFy allows you to search Spotify for a specific genre, and return the top artists.
         This is a query that can help you discover new artists, while also revisiting the ones you
         already love!`,
-        imgSrc: 'https://drive.google.com/open?id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
+        imgSrc: 'http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
         liveLink: '',
         ghLink: 'https://github.com/stephenparkhum/Contour',
         tags: ['React', 'JavaScript']
