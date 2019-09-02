@@ -4,7 +4,7 @@ let portfolioStore = [
         title: 'music.query',
         description: `music.Query is an app that allows you to test your music knowledge around rock and heavy metal
         artists. Test your knowledge now and see if you can get a perfect score!`,
-        imgSrc: 'http://drive.google.com/uc?export=view&id=17Kp7YGqw4bvgXbld__QWc7hbGZxOkwnu',
+        imgSrc: 'http://drive.google.com/uc?export=view&id=120VMSK5vylZCn1m3wfh1vLNxcdVlsp_4',
         liveLink: 'https://stephenparkhum.github.io/quiz-app/',
         ghLink: 'https://github.com/stephenparkhum/quiz-app',
         tags: ['JavaScript', 'jQuery', 'HTML', 'CSS']
