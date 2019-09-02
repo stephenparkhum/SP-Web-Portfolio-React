@@ -24,7 +24,12 @@
         width: 100%;
         height: 100%;
         align-self: center;
-        /* padding-top: 25px; */
+        margin-bottom: 10px;
+        border-bottom: 1px solid var(--med-blue);
+        -moz-box-shadow:    3px 3px 5px 6px var(--med-blue-shadow);
+        -webkit-box-shadow: 3px 3px 5px 6px var(--med-blue-shadow);
+        box-shadow:         3px 3px 5px 6px var(--med-blue-shadow);
+
     }
     
     .PortfolioApp-info {

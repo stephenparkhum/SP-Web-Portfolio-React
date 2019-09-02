@@ -4,7 +4,7 @@ let portfolioStore = [
         title: 'music.query',
         description: `music.Query is an app that allows you to test your music knowledge around rock and heavy metal
         artists. Test your knowledge now and see if you can get a perfect score!`,
-        imgSrc: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        imgSrc: 'http://drive.google.com/uc?export=view&id=17Kp7YGqw4bvgXbld__QWc7hbGZxOkwnu',
         liveLink: 'https://stephenparkhum.github.io/quiz-app/',
         ghLink: 'https://github.com/stephenparkhum/quiz-app',
         tags: ['JavaScript', 'jQuery', 'HTML', 'CSS']
@@ -15,21 +15,19 @@ let portfolioStore = [
         description: `genriFy allows you to search Spotify for a specific genre, and return the top artists.
         This is a query that can help you discover new artists, while also revisiting the ones you
         already love!`,
-        imgSrc: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        imgSrc: 'http://drive.google.com/uc?export=view&id=1-iaWy-UimLaQAbgYRr0Dj-2aNLgerQ3q',
         liveLink: 'https://stephenparkhum.github.io/genriFy/',
         ghLink: 'https://github.com/stephenparkhum/genriFy',
         tags: ['JavaScript', 'jQuery', 'Spotify API']
     },
     {
         id: 3,
-        title: 'contour',
-        description: `genriFy allows you to search Spotify for a specific genre, and return the top artists.
-        This is a query that can help you discover new artists, while also revisiting the ones you
-        already love!`,
+        title: 'Contour',
+        description: `Contour is an app that allows independent artists to plan, route, and book shows/tours! This app is currently in development progress!`,
         imgSrc: 'http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
         liveLink: '',
         ghLink: 'https://github.com/stephenparkhum/Contour',
-        tags: ['React', 'JavaScript']
+        tags: ['React', 'JavaScript', 'NodeJS']
     },
 ];
 
