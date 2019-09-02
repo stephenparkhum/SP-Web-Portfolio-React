@@ -27,7 +27,7 @@ let portfolioStore = [
         imgSrc: 'http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
         liveLink: '',
         ghLink: 'https://github.com/stephenparkhum/Contour',
-        tags: ['React', 'JavaScript', 'NodeJS']
+        tags: ['React', 'JavaScript', 'NodeJs']
     },
 ];
 
