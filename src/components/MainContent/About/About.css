@@ -49,12 +49,34 @@
     .About-lang svg:hover {
         color: var(--blue);
     }    
+
+    .About-social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .About-social svg {
+        color: var(--med-blue);
+        font-size: 35px;
+        margin: 0 35px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .About-social a svg:hover {
+        color: var(--blue);
+    }
 }
 
 @media only screen and (min-width: 801px) {
     .About-info {
         width: 75%;
         margin-bottom: 75px;
+    }
+
+    .desktop-hide {
+        display: none;
     }
     
     .About-info img {

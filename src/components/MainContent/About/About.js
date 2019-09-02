@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faNodeJs, faPython, faReact} from '@fortawesome/free-brands-svg-icons';
+import { faJs, faNodeJs, faPython, faReact, faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import './About.css';
 
 class About extends Component {
@@ -16,6 +16,11 @@ class About extends Component {
                     Due to the ever-changing terrain of the tech landscape, I believe that an excellent web developer must
                     take an 'always-learning' approach to new technologies and collaborations.
                 </p>
+                <h3 className="desktop-hide">Social</h3>
+                <div className="About-social desktop-hide">
+                    <a href="https://www.linkedin.com/in/stephenparker-03/"><FontAwesomeIcon icon={faLinkedin} size="4x" /></a>
+                    <a href="http://github.com/stephenparkhum"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
+                </div>
                 <h3>Skills</h3>
                 <div className="About-lang">
                     <FontAwesomeIcon icon={faJs} size="4x" />
