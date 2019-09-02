@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .PortfolioApp-main {
         border: 2px solid var(--med-blue);
         width: 100%;
@@ -69,7 +69,8 @@
     .PortfolioApp-tags {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
         background-color: var(--med-blue);
         width: 100%;
         border: none;
@@ -84,7 +85,7 @@
     }    
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 801px) {
     .PortfolioApp-main {
         border: 2px solid var(--med-blue);
         width: 80%;

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 801px) {
     .TopNav {
         display: flex;
         flex-direction: row;
@@ -50,7 +50,7 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .TopNav {
         border-bottom: 1px solid var(--med-blue-shadow);
         width: 100%;
@@ -65,7 +65,8 @@
     }
 
     .TopNav svg {
-        display: none;
+        font-size: 30px;
+        color: white;
     }
     
     .TopNav h1 {
@@ -79,6 +80,7 @@
     
     .TopNav-name span {
         color: var(--med-blue);
+        font-weight: bold;
     }
     
     .TopNav a {
@@ -89,19 +91,25 @@
     .TopNav-links ul a svg:hover {
         color: var(--blue);
     }
+
+    .TopNav-links {
+        background: var(--med-blue);
+        align-self: center;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
     
     .TopNav-links ul {
         display: flex;
         flex-direction: row; 
         justify-content: center;
-        align-items: center;
     }
     
     .TopNav-links ul li {
-        padding: 0 25px;
-        font-size: 20px;
+        padding: 10px 25px;
         font-weight: lighter;
-        margin: 0;
+        align-self: center;
     }
 }
 

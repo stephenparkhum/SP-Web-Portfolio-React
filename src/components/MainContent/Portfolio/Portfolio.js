@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJsSquare, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faJsSquare, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import './Portfolio.css';
 import portfolioStore from './portfolio-store';
 import PortfolioApp from './PortfolioApp';
@@ -16,21 +16,22 @@ class Portfolio extends Component {
                     imgSrc={app.imgSrc}
                     liveLink={app.liveLink}
                     ghLink={app.ghLink}
+                    key={app.id}
                 />
             )
         });
 
-        const portLanguages = () => {
-            return (
-                <div className="Portfolio-languages">
-                    <FontAwesomeIcon icon={faJsSquare} size="4x" color={blue} />
-                    <FontAwesomeIcon icon={faReact} size="4x" color={blue} />
-                    <FontAwesomeIcon icon={faNodeJs} size="4x" color={blue} />
-                </div>
-            )
-        } 
+        // const portLanguages = () => {
+        //     return (
+        //         <div className="Portfolio-languages">
+        //             <FontAwesomeIcon icon={faJsSquare} size="4x" color={blue} />
+        //             <FontAwesomeIcon icon={faReact} size="4x" color={blue} />
+        //             <FontAwesomeIcon icon={faNodeJs} size="4x" color={blue} />
+        //         </div>
+        //     )
+        // } 
 
-        const blue = getComputedStyle(document.documentElement).getPropertyValue('--med-blue');
+        // const blue = getComputedStyle(document.documentElement).getPropertyValue('--med-blue');
 
 
         return ( 

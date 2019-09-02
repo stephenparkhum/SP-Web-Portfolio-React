@@ -20,6 +20,17 @@ let portfolioStore = [
         ghLink: 'https://github.com/stephenparkhum/genriFy',
         tags: ['JavaScript', 'jQuery', 'Spotify API']
     },
+    {
+        id: 3,
+        title: 'contour',
+        description: `genriFy allows you to search Spotify for a specific genre, and return the top artists.
+        This is a query that can help you discover new artists, while also revisiting the ones you
+        already love!`,
+        imgSrc: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        liveLink: '',
+        ghLink: 'https://github.com/stephenparkhum/Contour',
+        tags: ['React', 'JavaScript']
+    },
 ];
 
 export default portfolioStore;

@@ -4,7 +4,6 @@ import MainContent from '../MainContent/MainContent';
 import TopNav from '../Nav/TopNav/TopNav';
 import RightNav from '../Nav/RightNav/RightNav';
 import Portfolio from '../MainContent/Portfolio/Portfolio';
-import Contact from '../MainContent/Contact/Contact';
 import About from '../MainContent/About/About';
 import './App.css';
 
