@@ -1,35 +1,82 @@
-.Contact-info {
-    margin-top: 125px;
+@media only screen and (max-width: 800px) {
+    .Contact-info {
+        margin-top: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+    
+    .Contact-info p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+    .Contact-info code {
+        padding-left: 5px;
+    }
+    
+    .Contact-info code:hover {
+        background-color: var(--med-blue);
+        padding: 5px;
+    }
+    
+    .Contact-info a:hover {
+        color: white;
+    }
+    
+    .Contact-info a {
+        color: var(--med-blue);
+        text-transform: none;
+        text-decoration: none;
+    
+    }
+    
+    .Contact-info svg {
+        color: var(--med-blue);
+    }
+    
+    .Contact-info svg:hover {
+        color: var(--blue);
+    }    
 }
 
-.Contact-info p {
-    font-size: 20px;
+@media only screen and (min-width: 801px) {
+    .Contact-info {
+        margin-top: 125px;
+    }
+    
+    .Contact-info p {
+        font-size: 20px;
+    }
+    
+    .Contact-info code {
+        padding-left: 5px;
+    }
+    
+    .Contact-info code:hover {
+        background-color: var(--med-blue);
+        padding: 5px;
+    }
+    
+    .Contact-info a:hover {
+        color: white;
+    }
+    
+    .Contact-info a {
+        color: var(--med-blue);
+        text-transform: none;
+        text-decoration: none;
+    
+    }
+    
+    .Contact-info svg {
+        color: var(--med-blue);
+    }
+    
+    .Contact-info svg:hover {
+        color: var(--blue);
+    }
 }
 
-.Contact-info code {
-    padding-left: 5px;
-}
 
-.Contact-info code:hover {
-    background-color: var(--med-blue);
-    padding: 5px;
-}
 
-.Contact-info a:hover {
-    color: white;
-}
-
-.Contact-info a {
-    color: var(--med-blue);
-    text-transform: none;
-    text-decoration: none;
-
-}
-
-.Contact-info svg {
-    color: var(--med-blue);
-}
-
-.Contact-info svg:hover {
-    color: var(--blue);
-}

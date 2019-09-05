@@ -7,6 +7,7 @@ import PortfolioApp from './PortfolioApp';
 
 class Portfolio extends Component {
     render() { 
+
         const displayPort = portfolioStore.map(app => {
             return (
                 <PortfolioApp 
@@ -20,19 +21,6 @@ class Portfolio extends Component {
                 />
             )
         });
-
-        // const portLanguages = () => {
-        //     return (
-        //         <div className="Portfolio-languages">
-        //             <FontAwesomeIcon icon={faJsSquare} size="4x" color={blue} />
-        //             <FontAwesomeIcon icon={faReact} size="4x" color={blue} />
-        //             <FontAwesomeIcon icon={faNodeJs} size="4x" color={blue} />
-        //         </div>
-        //     )
-        // } 
-
-        // const blue = getComputedStyle(document.documentElement).getPropertyValue('--med-blue');
-
 
         return ( 
             <div className="Portfolio-main">

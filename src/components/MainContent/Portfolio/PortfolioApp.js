@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
-import { faGlobe } from '@fortawesome/free-solid-svg-icons';
+import { faGlobe, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import './PortfolioApp.css';
 
 class PortfolioApp extends Component {
@@ -11,6 +11,22 @@ class PortfolioApp extends Component {
                 <button className="PortfolioApp-tags" key={`1_${tag}`}>{tag}</button>
             )
         })
+
+        const getLiveLInk = (liveLink) => {
+            if (liveLink !== '') {
+                return <a href={liveLink}><button><FontAwesomeIcon icon={faGlobe} size="lg" /></button></a>
+            } else {
+                return <button><FontAwesomeIcon icon={faTimesCircle} size="lg" /></button>
+            }
+        }
+
+        const getGitLink = (ghLink) => {
+            if (ghLink !== '') {
+                return <a href={ghLink}><button><FontAwesomeIcon icon={faGithub} size="lg" /></button></a>
+            } else {
+                return <button><FontAwesomeIcon icon={faTimesCircle} size="lg"/></button>
+            }
+        }
         
         return ( 
             <div className="PortfolioApp-main">
@@ -23,8 +39,8 @@ class PortfolioApp extends Component {
                     </div>
                 </div>
                 <div className="PortfolioApp-links">
-                    <a href={this.props.ghLink}><button><FontAwesomeIcon icon={faGithub} size="lg" /></button></a>
-                    <a href={this.props.liveLink}><button><FontAwesomeIcon icon={faGlobe} size="lg" /></button></a>
+                    {getGitLink(this.props.ghLink)}
+                    {getLiveLInk(this.props.liveLink)}
                 </div>
             </div>
          );
