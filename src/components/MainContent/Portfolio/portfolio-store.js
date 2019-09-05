@@ -1,13 +1,12 @@
 let portfolioStore = [
     {
         id: 1,
-        title: 'music.query',
-        description: `music.Query is an app that allows you to test your music knowledge around rock and heavy metal
-        artists. Test your knowledge now and see if you can get a perfect score!`,
-        imgSrc: 'http://drive.google.com/uc?export=view&id=120VMSK5vylZCn1m3wfh1vLNxcdVlsp_4',
-        liveLink: 'https://stephenparkhum.github.io/quiz-app/',
-        ghLink: 'https://github.com/stephenparkhum/quiz-app',
-        tags: ['JavaScript', 'jQuery', 'HTML', 'CSS']
+        title: 'Contour',
+        description: `Contour is an app that allows independent artists to plan, route, and book shows/tours! This app is currently in development progress!`,
+        imgSrc: 'http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
+        liveLink: '',
+        ghLink: 'https://github.com/stephenparkhum/Contour',
+        tags: ['React', 'JavaScript', 'NodeJs']
     },
     {
         id: 2,
@@ -22,13 +21,16 @@ let portfolioStore = [
     },
     {
         id: 3,
-        title: 'Contour',
-        description: `Contour is an app that allows independent artists to plan, route, and book shows/tours! This app is currently in development progress!`,
-        imgSrc: 'http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
-        liveLink: '',
-        ghLink: 'https://github.com/stephenparkhum/Contour',
-        tags: ['React', 'JavaScript', 'NodeJs']
+        title: 'music.query',
+        description: `music.Query is an app that allows you to test your music knowledge around rock and heavy metal
+        artists. Test your knowledge now and see if you can get a perfect score!`,
+        imgSrc: 'http://drive.google.com/uc?export=view&id=120VMSK5vylZCn1m3wfh1vLNxcdVlsp_4',
+        liveLink: 'https://stephenparkhum.github.io/quiz-app/',
+        ghLink: 'https://github.com/stephenparkhum/quiz-app',
+        tags: ['JavaScript', 'jQuery', 'HTML', 'CSS']
     },
+    
+    
 ];
 
 export default portfolioStore;
