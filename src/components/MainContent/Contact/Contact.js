@@ -7,12 +7,8 @@ class Contact extends Component {
             <>
             <h2>Contact Me</h2>
             <div className="Contact-info">
-                <h3>Contact Me</h3>
-                <ul>
-                    <li>Email:</li>
-                    <li>Github:</li>
-                    <li>Email:</li>
-                </ul>
+                <p>Feel free to drop me an email at <code><a href="mailto:stephenparkhum@outlook.com">stephenparkhum@outlook.com</a></code>!
+                </p>
             </div>
             </>
          );

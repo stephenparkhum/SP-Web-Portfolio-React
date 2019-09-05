@@ -5,6 +5,7 @@ import TopNav from '../Nav/TopNav/TopNav';
 import RightNav from '../Nav/RightNav/RightNav';
 import Portfolio from '../MainContent/Portfolio/Portfolio';
 import About from '../MainContent/About/About';
+import Contact from '../MainContent/Contact/Contact';
 import './App.css';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
           <main>
             <Route exact path="/" component={MainContent} />
             <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
             <Route path="/portfolio" component={Portfolio} />
           </main>
           
