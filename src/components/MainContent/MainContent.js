@@ -6,7 +6,7 @@ class MainContent extends Component {
         return ( 
             <div className="MainContent-main">
                 <div className="MainContent-inner">
-                <p>I <strong>create</strong> things on the web with</p>
+                <p>Hi, I'm Stephen, and I <strong>create</strong> things on the web with</p>
                 <p>HTML, CSS, JavaScript, React & NodeJS</p>
                 </div>
                 
