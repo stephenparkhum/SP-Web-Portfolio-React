@@ -49,6 +49,8 @@
     
     .RightNav-active {
         font-weight: bold;
+        color: white;
+        background-color: var(--med-blue);
     }
 }
 
