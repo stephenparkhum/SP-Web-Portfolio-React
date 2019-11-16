@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faJsSquare, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import './Portfolio.css';
 import portfolioStore from './portfolio-store';
 import PortfolioApp from './PortfolioApp';
