@@ -20,7 +20,8 @@
     
     aside a:hover {
         font-weight: normal;
-        color: var(--med-blue);
+        color: white;
+        background-color: var(--med-blue);
     }
     
     aside nav {
@@ -49,8 +50,6 @@
     
     .RightNav-active {
         font-weight: bold;
-        color: white;
-        background-color: var(--med-blue);
     }
 }
 
@@ -60,10 +59,10 @@
         position: fixed;
         right: 0;
         bottom: 0;
-        text-align: right;
+        text-align: center;
         font-weight: lighter;
         font-size: 20px;
-        height: 80%;
+        height: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -95,7 +94,14 @@
     
     nav ul li {
         list-style: none;
-        padding: 0 50px 50px 50px;
+        padding: 25px 40px;
+        align-self: center;
+    }
+
+    ul li:hover {
+        background-color: var(--med-blue);
+        color: white;
+        text-align: center;
     }
     
     .RightNav-active {
