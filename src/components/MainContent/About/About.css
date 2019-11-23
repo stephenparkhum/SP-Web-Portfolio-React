@@ -18,7 +18,7 @@
     
     .About-info p {
         line-height: 35px;
-        text-align: left;
+        text-align: center;
         margin-top: 35px;
         width: 100%;
     }
@@ -34,16 +34,16 @@
         margin: 0;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
+        flex-wrap: wrap;
 
     }
     
     .About-lang svg {
         padding-top: 0;
+        margin-right: 10px;
+        font-size: 35px;
         color: var(--med-blue);
-        padding-right: 25px;
-        align-self: center;
-        text-align: center;
     }
     
     .About-lang svg:hover {

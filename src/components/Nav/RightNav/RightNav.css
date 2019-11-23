@@ -47,6 +47,12 @@
         color: white;
         font-size: 20px;
     }
+
+    .RightNav svg {
+        color: white;
+        font-size: 30px;
+        align-self: center;
+    }
     
     .RightNav-active {
         font-weight: bold;
