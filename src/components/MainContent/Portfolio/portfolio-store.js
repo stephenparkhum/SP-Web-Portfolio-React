@@ -4,7 +4,7 @@ let portfolioStore = [
         title: 'Glossolalia Records (2020)',
         description: `The 2020 re-design of the Glossolalia Records website. ** Currently in development **`,
         imgSrc: 'http://drive.google.com/uc?export=view&id=1k-7YsXAD5TgNXgML_aH6iEM0-lMRTq0p',
-        liveLink: 'http://glossolaliarecords',
+        liveLink: 'http://glossolaliarecords.com',
         ghLink: 'https://github.com/stephenparkhum/Glossolalia-Records-V2',
         tags: ['React', 'JavaScript', 'NodeJs', 'mongoDB']
     },

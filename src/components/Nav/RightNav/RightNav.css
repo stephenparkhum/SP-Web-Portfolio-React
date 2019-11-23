@@ -98,12 +98,28 @@
         align-self: center;
     }
 
-    ul li:hover {
-        background-color: var(--med-blue);
-        color: white;
-        text-align: center;
+    .RightNav svg {
+        font-size: 35px;
     }
-    
+
+    .RightNav ul a svg:hover {
+        color: var(--blue);
+    }
+
+    /* NAV BAR ANIMATION */
+    @keyframes slidein {
+        from {
+          margin-right: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-right: 0%;
+          width: 100%;
+        }
+      }
+
+
     .RightNav-active {
         font-weight: normal;
     }
