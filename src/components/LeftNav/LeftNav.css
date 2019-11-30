@@ -1,0 +1,86 @@
+.LeftNav {
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.StephenFace {
+    border-radius: 50%;
+    width: 125px;
+    border: 2px solid var(--dark);
+}
+
+.SocialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 75px;
+    padding: 0;
+}
+
+.SocialIcons svg {
+    color: var(--dark);
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.SocialIcons svg:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+.ContactButtonSection {
+    width: 100%;
+}
+
+.ContactButton {
+    background-color: var(--dark);
+    color: var(--white);
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    height: 40px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.ContactButton:hover {
+    background-color: var(--white);
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.LeftNavItems {
+    text-align: center;
+}
+
+.LeftNavItems ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.LeftNavItems ul li {
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.LeftNavItems ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.NavLinkActive {
+    color: var(--dark);
+    font-weight: bold;
+    text-decoration: none;
+}

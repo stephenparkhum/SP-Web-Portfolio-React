@@ -1,0 +1,21 @@
+.AboutMeSection {
+    width: 80%;
+}
+
+.AboutMeSection p {
+    padding-top: 25px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.AboutMeSkills h3 {
+    text-transform: uppercase;
+    text-align: left;
+
+}
+
+.AboutMeSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
