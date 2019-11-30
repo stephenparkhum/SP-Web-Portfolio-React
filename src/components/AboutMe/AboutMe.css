@@ -17,5 +17,17 @@
 .AboutMeSkills {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+}
+
+.AboutMeSkills svg {
+    color: var(--dark);
+    font-size: 40px;
+    margin-right: 20px;
+    box-shadow: var(--dark);
+    background: none;
+}
+
+.AboutMeSkills svg:hover {
+    color: var(--blue);
 }

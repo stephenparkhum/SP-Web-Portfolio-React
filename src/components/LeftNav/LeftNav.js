@@ -34,7 +34,9 @@ const LeftNav = () => {
                 <FontAwesomeIcon icon={faTwitterSquare} />
             </div>
             <div className="ContactButtonSection">
+            <a href="mailto:stephenparkhum@outlook.com" target="_blank">
                 <button className="ContactButton">Contact Me</button>
+            </a> 
             </div>
         </div>
         </>

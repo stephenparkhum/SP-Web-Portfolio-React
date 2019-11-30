@@ -23,12 +23,10 @@
 
     main {
         flex: 5;
-        border: 1px solid blue;
     }
 
     .MainContent {
         margin-left: 50px;
-        border: 1px solid green;
         top: 15%;
         position: absolute;
         width: 70%;
@@ -36,7 +34,14 @@
     }
 
     aside {
-        background-color: var(--blue);
+        background: rgba(54,73,89,1);
+background: -moz-linear-gradient(left, rgba(54,73,89,1) 0%, rgba(46,63,77,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(54,73,89,1)), color-stop(100%, rgba(46,63,77,1)));
+background: -webkit-linear-gradient(left, rgba(54,73,89,1) 0%, rgba(46,63,77,1) 100%);
+background: -o-linear-gradient(left, rgba(54,73,89,1) 0%, rgba(46,63,77,1) 100%);
+background: -ms-linear-gradient(left, rgba(54,73,89,1) 0%, rgba(46,63,77,1) 100%);
+background: linear-gradient(to right, rgba(54,73,89,1) 0%, rgba(46,63,77,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#364959', endColorstr='#2e3f4d', GradientType=1 );
         color: white;
         flex: 1;
         width: 250px;
