@@ -109,7 +109,7 @@
     }
 
     .RightNav ul a svg:hover {
-        color: var(--blue);
+        color: var(--red);
     }
 
     /* NAV BAR ANIMATION */

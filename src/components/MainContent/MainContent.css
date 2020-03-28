@@ -41,7 +41,7 @@
     }
 
     .MainContent-inner p strong {
-        color: var(--med-blue);
+        color: var(--dark-red);
     }
 }
 

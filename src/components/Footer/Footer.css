@@ -3,7 +3,7 @@ footer {
     left: -5px;
     top: 35%;
     background: white;
-    border: 1px solid var(--med-blue);
+    border: 1px solid var(--dark-red);
     border-radius: 0 10px 10px 0 ;
     height: 200px;
     width: 50px;
@@ -22,7 +22,7 @@ footer {
     height: 50%;
     margin: 0 auto;
     background-color: white;
-    border: 1px solid var(--med-blue);
+    border: 1px solid var(--dark-red);
     border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@ footer {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 1px solid var(--med-blue);
+    border: 1px solid var(--dark-red);
     background: white;
     position: relative;
     top: 0;
@@ -44,7 +44,7 @@ footer {
 }
 
 .ToggleFooter-main svg {
-    color: var(--med-blue);
+    color: var(--dark-red);
     font-size: 25px;
     align-self: center;
 }

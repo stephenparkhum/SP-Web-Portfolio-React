@@ -23,7 +23,7 @@
 }
 
 .Portfolio-languages svg:hover {
-    color: var(--blue);
+    color: var(--red);
 }
     
 }
@@ -47,7 +47,7 @@
 }
 
 .Portfolio-languages svg:hover {
-    color: var(--blue);
+    color: var(--red);
 }
     
 }

@@ -1,6 +1,6 @@
 @media only screen and (max-width: 800px) {
     .PortfolioApp-main {
-        border: 2px solid var(--med-blue);
+        border: 2px solid var(--dark-red);
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -47,7 +47,7 @@
     }
     
     .PortfolioApp-links {
-        background-color: var(--med-blue);
+        background-color: var(--dark-red);
         color: white;
         display: flex;
         flex-direction: row;
@@ -68,7 +68,7 @@
     }
     
     .PortfolioApp-links button:hover {
-        color: var(--blue);
+        color: var(--red);
     }
     
     .PortfolioApp-tags {
@@ -147,7 +147,7 @@
     }
     
     .PortfolioApp-links button:hover {
-        color: var(--blue);
+        color: var(--red);
     }
     
     .PortfolioApp-tags {

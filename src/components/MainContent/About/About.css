@@ -43,11 +43,11 @@
         padding-top: 0;
         margin-right: 10px;
         font-size: 35px;
-        color: var(--med-blue);
+        color: var(--dark-red);
     }
     
     .About-lang svg:hover {
-        color: var(--blue);
+        color: var(--red);
     }    
 
     .About-social {
@@ -57,7 +57,7 @@
     }
 
     .About-social svg {
-        color: var(--med-blue);
+        color: var(--dark-red);
         font-size: 35px;
         margin: 0 35px;
         align-self: center;
@@ -65,7 +65,7 @@
     }
 
     .About-social a svg:hover {
-        color: var(--blue);
+        color: var(--red);
     }
 }
 
@@ -108,13 +108,13 @@
     
     .About-lang svg {
         padding-top: 0;
-        color: var(--med-blue);
+        color: var(--dark-red);
         padding-right: 25px;
         align-self: center;
     }
     
     .About-lang svg:hover {
-        color: var(--blue);
+        color: var(--red);
     }
 }
 

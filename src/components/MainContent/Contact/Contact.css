@@ -17,7 +17,7 @@
     }
     
     .Contact-info code:hover {
-        background-color: var(--med-blue);
+        background-color: var(--dark-red);
         padding: 5px;
     }
     
@@ -26,17 +26,17 @@
     }
     
     .Contact-info a {
-        color: var(--med-blue);
+        color: var(--dark-red);
         text-transform: none;
         text-decoration: none;
     }
     
     .Contact-info svg {
-        color: var(--med-blue);
+        color: var(--dark-red);
     }
     
     .Contact-info svg:hover {
-        color: var(--blue);
+        color: var(--red);
     }    
 }
 
@@ -57,11 +57,11 @@
     }
     
     .Contact-info a:hover {
-        color: var(--blue);
+        color: var(--red);
     }
     
     .Contact-info a {
-        color: var(--med-blue);
+        color: var(--dark-red);
         text-transform: none;
         text-decoration: none;
     }
