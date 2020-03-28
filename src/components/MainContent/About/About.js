@@ -19,7 +19,7 @@ class About extends Component {
             <>
             <div className="About-info">
             <h2>About Me</h2>
-                <img src="https://media.licdn.com/dms/image/C5603AQFJcYLRqlWOKA/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=aSS0n6mSc4PSYlBh6iT3nXlT--GzS3VhRzjH-Lxsnxc" alt="Stephen" />
+                <img src="https://media-exp1.licdn.com/dms/image/C5603AQFJcYLRqlWOKA/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=oHjMc5yCCQXFII_v1rG4yn9i2d4QanvN6V7o5io4J3w" alt="Stephen" />
                 <p>
                     I'm a Portland, Oregon-based web developer who has a passion for creating pixel-perfect experiences that
                     serve every type of user, no matter their ability, interest, or choice of device.<br/> <br/>

@@ -1,11 +1,8 @@
 # S. PARKER PORTFOLIO 
+My portfolio build primarily with react. 
 
-This is the version of my portfolio using React.
-
-
-### Screenshot 
-
-_Coming Soon!_
+### Live Site 
+[http://sparker.work](http://sparker.work)
 
 ### Stack 
 
