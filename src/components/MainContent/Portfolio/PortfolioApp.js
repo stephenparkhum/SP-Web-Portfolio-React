@@ -52,9 +52,8 @@ class PortfolioApp extends Component {
                     </div>
                     <div class="media-content">
                     <div class="content">
+                        <h2 className="title is-6">{this.props.title}</h2> <small>{this.props.year}</small>
                         <p>
-                        <strong>{this.props.title}</strong> <small>{this.props.year}</small>
-                        <br />
                         {this.props.description}
                         </p>
                     </div>

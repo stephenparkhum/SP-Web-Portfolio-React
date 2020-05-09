@@ -23,6 +23,7 @@ class MainContent extends Component {
                     <br /><br />Due to the ever-changing terrain of the tech landscape, I believe that an excellent web developer must take an ‘always-learning’ approach to new technologies and collaborations.
                 </p>
                 <br />
+                <br />
                 <h4 className="title is-5 has-text-white-ter">Skills</h4>
                 <div className="columns">
                     <div class="column">

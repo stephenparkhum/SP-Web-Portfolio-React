@@ -17,12 +17,14 @@ $white-ter: $grey;
 $box-background-color: $extra-dark;
 $box-color: $grey;
 $box-radius: 3px;
+$box-padding: 25px;
 
 html body {
     height: 100vh;
     background-color: $dark;
     main.container,
     .main--content {
+        margin-bottom: px;
         section,
         .section.is-medium {
             padding-left: 0 !important;

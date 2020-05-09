@@ -19,10 +19,10 @@ function RightNav() {
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="buttons">
-                    <a class="button is-link is-normal">
+                    <a class="button is-link is-normal" href="https://github.com/stephenparkhum" rel="no-follow" target="_blank">
                         <strong>Github</strong>
                     </a>
-                    <a class="button is-info is-outlined">
+                    <a class="button is-info is-outlined" href="https://www.linkedin.com/in/stephenparker-03/" rel="no-follow" target="_blank">
                         LinkedIn
                     </a>
                 </div>
