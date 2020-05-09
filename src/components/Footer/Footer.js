@@ -2,18 +2,17 @@ import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
-import './Footer.css';
-
 class ToggleFooter extends Component {
     render() { 
+        var d = new Date();
+        var thisYear = d.getFullYear();
+
         return ( 
             <>
-            <div className="ToggleFooter-main">
-                <button><FontAwesomeIcon icon={faSun} /></button>
-                <div className="ToggleFooter-strip">
-                    <div className="ToggleFooter-circle"></div>
-                </div>
-                <button><FontAwesomeIcon icon={faMoon} /></button>
+            <div class="content is-small container">
+                <p>
+                    Website created with <a href="https://bulma.io/">Bulma</a>, <a href="http://reactjs.org">React</a> and copious amounts of coffee <span>//</span> Stephen Parker &copy; {thisYear}
+                </p>
             </div>
             </>
          );

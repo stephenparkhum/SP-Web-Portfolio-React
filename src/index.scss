@@ -1,0 +1,101 @@
+// CUSTOM STYLING - Keep to a minimum if possible
+
+// SP Colors 
+$dark: #24272B;
+$extra-dark: #1A1C1F;
+$red: #AF5050;
+$grey: #BCBCBC;
+$salmon: #FA6F6F;
+
+
+// Updating Bulma's global vars
+$link: $red;
+$grey-light: $grey;
+$info: $salmon;
+$black-ter: $extra-dark;
+$white-ter: $grey;
+$box-background-color: $extra-dark;
+$box-color: $grey;
+$box-radius: 3px;
+
+html body {
+    height: 100vh;
+    background-color: $dark;
+    main.container,
+    .main--content {
+        section,
+        .section.is-medium {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+    
+
+}
+
+// MAIN CONTENT UPDATES
+main {
+    h1.title,
+    h2.title,
+    h3.title,
+    h4.title,
+    h5.title,
+    h6.title {
+        color: $grey;
+    }
+
+    .main--content {
+        width: 60%;
+
+        p strong {
+            color: $salmon;
+        }
+    }
+}
+
+nav.navbar {
+    .container {
+        a.navbar-item {
+            color: $grey;
+
+            &:hover {
+                color: $info;
+            }
+        }
+    }
+}
+
+// ICONS
+.columns .column svg {
+    color: $info;
+    &:hover {
+        color: $link;
+    }
+}
+
+
+
+footer,
+footer.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: $extra-dark;
+    color: $grey;
+    a,
+    span {
+        color: $info;
+    }
+
+    a {
+        &:hover {
+            color: $link;
+            text-decoration: underline;
+        }
+    }
+}
+
+/* BULMA IMPORTS */
+@import '../node_modules/bulma/bulma.sass';
+

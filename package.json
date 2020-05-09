@@ -1,6 +1,6 @@
 {
-  "name": "portfolio-react",
-  "version": "0.1.0",
+  "name": "stephen-web-dev-portfolio",
+  "version": "3.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
@@ -8,17 +8,23 @@
     "@fortawesome/free-regular-svg-icons": "^5.11.2",
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "bulma": "^0.8.2",
+    "node-sass": "^4.14.1",
     "react": "^16.9.0",
+    "react-bulma-components": "^3.2.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.4.1",
     "react-tooltip": "^3.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch"
+
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './Portfolio.css';
 import portfolioStore from './portfolio-store';
 import PortfolioApp from './PortfolioApp';
 
@@ -22,7 +21,7 @@ class Portfolio extends Component {
 
         return ( 
             <div className="Portfolio-main">
-                <h2>Portfolio</h2>
+                <h2 className="title is-4">Portfolio</h2>
                 {displayPort}
             </div>
          );

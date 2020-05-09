@@ -11,15 +11,16 @@ import {
     faDrupal,
 
 } from '@fortawesome/free-brands-svg-icons';
-import './About.css';
 
 class About extends Component {
     render() { 
         return ( 
             <>
             <div className="About-info">
-            <h2>About Me</h2>
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQFJcYLRqlWOKA/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=oHjMc5yCCQXFII_v1rG4yn9i2d4QanvN6V7o5io4J3w" alt="Stephen" />
+            <h2 className="title is-4">About Me</h2>
+                <figure class="image is-128x128">
+                    <img class="is-rounded" src="https://media-exp1.licdn.com/dms/image/C5603AQFJcYLRqlWOKA/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=oHjMc5yCCQXFII_v1rG4yn9i2d4QanvN6V7o5io4J3w" />
+                </figure>
                 <p>
                     I'm a Portland, Oregon-based web developer who has a passion for creating pixel-perfect experiences that
                     serve every type of user, no matter their ability, interest, or choice of device.<br/> <br/>

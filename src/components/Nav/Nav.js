@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import './Nav.css';
+import 'react-bulma-components/basic/react-bulma-components.min.css';
+  import { NavBar, Container, Hero, Section } from 'react-bulma-components/dist';
 import TopNav from './TopNav/TopNav';
 import RightNav from './RightNav/RightNav';
 

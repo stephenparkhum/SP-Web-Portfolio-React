@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub} from '@fortawesome/free-brands-svg-icons';
 import { faGlobe, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
-import './PortfolioApp.css';
 
 class PortfolioApp extends Component {
     render() { 
@@ -29,7 +28,8 @@ class PortfolioApp extends Component {
         }
         
         return ( 
-            <div className="PortfolioApp-main">
+            <>
+            {/* <div className="PortfolioApp-main">
                 <img src={this.props.imgSrc} alt={`${this.props.title}`}/>
                 <div className="PortfolioApp-info">
                     <h3>{this.props.title}</h3>
@@ -42,7 +42,40 @@ class PortfolioApp extends Component {
                     {getGitLink(this.props.ghLink)}
                     {getLiveLInk(this.props.liveLink)}
                 </div>
+            </div> */}
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                    <figure class="image is-128x128 is-16by9">
+                        <img src={this.props.imgSrc} alt={`${this.props.title}`} />
+                    </figure>
+                    </div>
+                    <div class="media-content">
+                    <div class="content">
+                        <p>
+                        <strong>{this.props.title}</strong> <small>{this.props.year}</small>
+                        <br />
+                        {this.props.description}
+                        </p>
+                    </div>
+                    <nav class="level is-mobile">
+                        <div class="level-left">
+                        <a class="level-item" aria-label="reply">
+                            <span class="icon is-large">
+                            <i class="fas fa-globe fa-2x" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        <a class="level-item" aria-label="like">
+                            <span class="icon is-large">
+                            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                        </div>
+                    </nav>
+                    </div>
+                </article>
             </div>
+            </>
          );
     }
 }

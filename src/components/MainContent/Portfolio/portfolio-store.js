@@ -6,7 +6,8 @@ let portfolioStore = [
         imgSrc: 'http://drive.google.com/uc?export=view&id=1k-7YsXAD5TgNXgML_aH6iEM0-lMRTq0p',
         liveLink: 'http://glossolaliarecords.com',
         ghLink: 'https://github.com/stephenparkhum/Glossolalia-Records-V2',
-        tags: ['React', 'JavaScript', 'NodeJs', 'mongoDB']
+        tags: ['React', 'JavaScript', 'NodeJs', 'mongoDB'],
+        year: '2020'
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ let portfolioStore = [
         imgSrc: 'http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX',
         liveLink: '',
         ghLink: 'https://github.com/stephenparkhum/Contour',
-        tags: ['React', 'JavaScript', 'NodeJs']
+        tags: ['React', 'JavaScript', 'NodeJs'],
+        year: '2019'
     },
     {
         id: 3,
@@ -26,7 +28,8 @@ let portfolioStore = [
         imgSrc: 'http://drive.google.com/uc?export=view&id=1-iaWy-UimLaQAbgYRr0Dj-2aNLgerQ3q',
         liveLink: 'https://stephenparkhum.github.io/genriFy/',
         ghLink: 'https://github.com/stephenparkhum/genriFy',
-        tags: ['JavaScript', 'jQuery', 'Spotify API']
+        tags: ['JavaScript', 'jQuery', 'Spotify API'],
+        year: '2019'
     },
     {
         id: 4,
@@ -36,7 +39,8 @@ let portfolioStore = [
         imgSrc: 'http://drive.google.com/uc?export=view&id=120VMSK5vylZCn1m3wfh1vLNxcdVlsp_4',
         liveLink: 'https://stephenparkhum.github.io/quiz-app/',
         ghLink: 'https://github.com/stephenparkhum/quiz-app',
-        tags: ['JavaScript', 'jQuery', 'HTML', 'CSS']
+        tags: ['JavaScript', 'jQuery', 'HTML', 'CSS'],
+        year: '2019'
     },
     
     
