@@ -32,6 +32,7 @@ html body {
     .main--content {
         section,
         .section.is-medium {
+            padding-top: 75px !important;
             padding-left: 0 !important;
             padding-right: 0 !important;
         }
@@ -95,6 +96,8 @@ nav.navbar {
 
 footer,
 footer.footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
     padding: 30px;
     background-color: $extra-dark;

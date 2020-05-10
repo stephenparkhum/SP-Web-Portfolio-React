@@ -7,13 +7,22 @@ import {
     faReact, 
     faPhp, 
     faDrupal,
-    faSass
+    faSass,
+    faBootstrap
 
 } from '@fortawesome/free-brands-svg-icons';
 
 
 class MainContent extends Component {
     render() { 
+        let addActiveClass = e => {
+            let listOfItems = document.getElementsByClassName('tab-list-item');
+            for (let i = 0; i < listOfItems.length; i++) {
+                listOfItems[i].classList.remove('is-active');
+            }
+            e.classList.add('is-active');
+        }
+
         return ( 
             <div class="main--content section is-medium">
                 <h1 className="title is-3 has-text-white-ter">Hi, I'm Stephen,</h1>
@@ -25,34 +34,39 @@ class MainContent extends Component {
                 <br />
                 <br />
                 <h4 className="title is-4 has-text-white-ter">Skills</h4>
-                <div class="tabs is-medium">
+                
+                {/* TODO - ADD TABBED VERSION OF SKILLS LIST  */}
+                {/* <div class="tabs is-medium">
                     <ul>
-                        <li class="is-active"><a>Front-End</a></li>
-                        <li><a>Back-End</a></li>
-                        <li><a>Design</a></li>
+                        <li className="is-active tab-list-item"><a>Front-End</a></li>
+                        <li className="tab-list-item" onClick={addActiveClass}><a>Back-End</a></li>
+                        <li className="tab-list-item"><a>Design</a></li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="columns">
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faJs} size="3x" />
                     </div>
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faReact} size="3x" />
                     </div>
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faNodeJs} size="3x" />
                     </div>
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faPython} size="3x" />
                     </div>
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faPhp} size="3x" />
                     </div>
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faDrupal} size="3x" />
                     </div>
-                    <div class="column">
+                    <div className="column">
                         <FontAwesomeIcon icon={faSass} size="3x" />
+                    </div>
+                    <div className="column">
+                        <FontAwesomeIcon icon={faBootstrap} size="3x" />
                     </div>
                 </div>
             </div>
