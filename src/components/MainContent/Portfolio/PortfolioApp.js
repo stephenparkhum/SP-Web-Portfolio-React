@@ -29,20 +29,6 @@ class PortfolioApp extends Component {
         
         return ( 
             <>
-            {/* <div className="PortfolioApp-main">
-                <img src={this.props.imgSrc} alt={`${this.props.title}`}/>
-                <div className="PortfolioApp-info">
-                    <h3>{this.props.title}</h3>
-                    <p>{this.props.description}</p>
-                    <div className="PortfolioApp-tags">
-                        {getTags}
-                    </div>
-                </div>
-                <div className="PortfolioApp-links">
-                    {getGitLink(this.props.ghLink)}
-                    {getLiveLInk(this.props.liveLink)}
-                </div>
-            </div> */}
             <div class="box">
                 <article class="media">
                     <div class="media-left">

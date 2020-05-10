@@ -11,6 +11,9 @@ import './App.css';
 
 class App extends Component {
   render() { 
+    console.log(`Hey! Thanks for stopping by and checking out my portfolio. Feel free to contact me directly for any help with your site!\n\nStephen Parker\nstephenparkhum@outlook.com`)
+
+
     return ( 
         <div className="App">
           <header className="App-header">

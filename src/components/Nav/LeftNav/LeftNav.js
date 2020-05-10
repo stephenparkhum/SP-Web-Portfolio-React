@@ -16,17 +16,17 @@ function LeftNav() {
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div class="navbar-menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item" href="/about">
+        <div className="navbar-menu">
+                    <div className="navbar-start">
+                        <a className="navbar-item" href="/about">
                             About
                         </a>
 
-                        <a class="navbar-item" href="/portfolio">
+                        <a className="navbar-item" href="/portfolio">
                             Portfolio
                         </a>
 
-                        <a class="navbar-item" href="/contact">
+                        <a className="navbar-item" href="/contact">
                             Contact
                         </a>
                     </div>
