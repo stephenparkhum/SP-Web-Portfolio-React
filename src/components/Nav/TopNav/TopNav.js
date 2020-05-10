@@ -7,7 +7,7 @@ class TopNav extends Component {
 
         return (
             <>
-            <nav className="navbar has-background-black-ter has-text-white-ter" role="navigation" aria-label="main navigation">
+            <nav className="navbar is-fixed-top has-background-black-ter has-text-white-ter" role="navigation" aria-label="main navigation">
                 <div className="container">
                     <LeftNav />
                     <RightNav />

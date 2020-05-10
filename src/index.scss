@@ -18,13 +18,18 @@ $box-background-color: $extra-dark;
 $box-color: $grey;
 $box-radius: 3px;
 $box-padding: 25px;
+$tabs-border-bottom-color: $grey;
+$tabs-link-color: $grey;
+$tabs-link-hover-color: $link;
+$tabs-link-hover-border-bottom-color: $link;
+$tabs-link-active-color: $salmon;
+$tabs-link-active-border-bottom-color: $salmon;
 
 html body {
     height: 100vh;
     background-color: $dark;
     main.container,
     .main--content {
-        margin-bottom: px;
         section,
         .section.is-medium {
             padding-left: 0 !important;
@@ -53,6 +58,15 @@ main {
             color: $salmon;
         }
     }
+    div.media {
+        .media-left {
+            .image img {
+                width: 100px !important;
+                height: 100% !important;
+            }
+        }
+    }
+
 }
 
 nav.navbar {
@@ -77,10 +91,10 @@ nav.navbar {
 
 
 
+
+
 footer,
 footer.footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     padding: 30px;
     background-color: $extra-dark;

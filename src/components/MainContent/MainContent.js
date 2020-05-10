@@ -24,7 +24,14 @@ class MainContent extends Component {
                 </p>
                 <br />
                 <br />
-                <h4 className="title is-5 has-text-white-ter">Skills</h4>
+                <h4 className="title is-4 has-text-white-ter">Skills</h4>
+                <div class="tabs is-medium">
+                    <ul>
+                        <li class="is-active"><a>Front-End</a></li>
+                        <li><a>Back-End</a></li>
+                        <li><a>Design</a></li>
+                    </ul>
+                </div>
                 <div className="columns">
                     <div class="column">
                         <FontAwesomeIcon icon={faJs} size="3x" />

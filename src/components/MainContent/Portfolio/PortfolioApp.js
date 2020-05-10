@@ -46,7 +46,7 @@ class PortfolioApp extends Component {
             <div class="box">
                 <article class="media">
                     <div class="media-left">
-                    <figure class="image is-128x128 is-16by9">
+                    <figure class="image is-128x128">
                         <img src={this.props.imgSrc} alt={`${this.props.title}`} />
                     </figure>
                     </div>

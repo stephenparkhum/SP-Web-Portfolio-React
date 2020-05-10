@@ -19,7 +19,7 @@ class App extends Component {
           <main className="container">
             <section className="section">
               <Route exact path="/" component={MainContent} />
-              <Route path="/about" component={About} />
+              <Route path="/about" component={MainContent} />
               <Route path="/contact" component={Contact} />
               <Route path="/portfolio" component={Portfolio} />
             </section>
