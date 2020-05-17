@@ -32,10 +32,17 @@ html body {
     .main--content {
         margin-bottom: 75px;
         section,
-        .section.is-medium {
-            padding-top: 75px !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
+        .section.is-small {
+            text-align: left;
+            padding-top: 45px !important;
+
+            @media only screen and (min-width: 600px) {
+                padding-top: 50px !important;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            } 
+
+
         }
     }
     
@@ -51,10 +58,15 @@ main {
     h5.title,
     h6.title {
         color: $grey;
+        @media only screen and (min-width: 600px) {
+            width: 60%; 
+        }
     }
 
     .main--content {
-        width: 60%;
+        @media only screen and (min-width: 600px) {
+            width: 60%; 
+        }
 
         p strong {
             color: $salmon;
@@ -100,9 +112,27 @@ footer.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 30px;
+    padding: 15px;
+
+    @media only screen and (min-width: 600px) {
+        padding: 30px;
+    }
+
     background-color: $extra-dark;
     color: $grey;
+    
+    p {
+    font-size: 10px;
+    text-align: center;
+
+    @media only screen and (min-width: 600px) {
+        font-size: 12px;
+        text-align: left;
+        }
+    }
+    
+    
+
     a,
     span {
         color: $info;
