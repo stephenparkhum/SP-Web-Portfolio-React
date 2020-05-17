@@ -45,12 +45,12 @@ class PortfolioApp extends Component {
                     </div>
                     <nav class="level is-mobile">
                         <div class="level-left">
-                        <a class="level-item" aria-label="reply">
+                        <a href={this.props.liveLink} class="level-item" aria-label="reply">
                             <span class="icon is-large">
                             <i class="fas fa-globe fa-2x" aria-hidden="true"></i>
                             </span>
                         </a>
-                        <a class="level-item" aria-label="like">
+                        <a href={this.props.ghLink} class="level-item" aria-label="like">
                             <span class="icon is-large">
                             <i class="fab fa-github fa-2x" aria-hidden="true"></i>
                             </span>
