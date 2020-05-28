@@ -26,7 +26,7 @@ function LeftNav() {
         </div>
         <div className="navbar-menu">
             <div className="navbar-start">
-                <a className="navbar-item" href="/about">
+                <a className="navbar-item" href="/">
                     About
                 </a>
 
