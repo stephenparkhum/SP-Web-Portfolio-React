@@ -29,30 +29,30 @@ class PortfolioApp extends Component {
         
         return ( 
             <>
-            <div class="box">
-                <article class="media">
-                    <div class="media-left">
-                    <figure class="image is-128x128">
+            <div className="box">
+                <article className="media">
+                    <div className="media-left">
+                    <figure className="image is-128x128">
                         <img src={this.props.imgSrc} alt={`${this.props.title}`} />
                     </figure>
                     </div>
-                    <div class="media-content">
-                    <div class="content">
-                        <h2 className="title is-6">{this.props.title}</h2> <small>{this.props.year}</small>
+                    <div className="media-content">
+                    <div className="content">
+                        <h2 className="title is-5 has-text-info">{this.props.title}</h2> <small>{this.props.year}</small>
                         <p>
                         {this.props.description}
                         </p>
                     </div>
-                    <nav class="level is-mobile">
-                        <div class="level-left">
-                        <a href={this.props.liveLink} class="level-item" aria-label="reply">
-                            <span class="icon is-large">
-                            <i class="fas fa-globe fa-2x" aria-hidden="true"></i>
+                    <nav className="level is-mobile">
+                        <div className="level-left">
+                        <a href={this.props.liveLink} className="level-item" aria-label={`Live ${this.props.title} website`} target="_blank">
+                            <span className="icon is-large">
+                            <i className="fas fa-globe fa-2x" aria-hidden="true"></i>
                             </span>
                         </a>
-                        <a href={this.props.ghLink} class="level-item" aria-label="like">
-                            <span class="icon is-large">
-                            <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                        <a href={this.props.ghLink} className="level-item" aria-label={`${this.props.title} Github Repo`} target="_blank">
+                            <span className="icon is-large">
+                            <i className="fab fa-github fa-2x" aria-hidden="true"></i>
                             </span>
                         </a>
                         </div>

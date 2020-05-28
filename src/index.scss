@@ -31,10 +31,11 @@ html body {
     main.container,
     .main--content {
         margin-bottom: 75px;
-        section,
+
         .section.is-small {
             text-align: left;
             padding-top: 45px !important;
+            padding: 3rem 12px;
 
             @media only screen and (min-width: 600px) {
                 padding-top: 50px !important;
@@ -104,7 +105,11 @@ nav.navbar {
 }
 
 
-
+footer.card-footer {
+    position: initial;
+    width: initial; 
+    height: 100%;
+}
 
 
 footer,
@@ -145,6 +150,13 @@ footer.footer {
         }
     }
 }
+
+div.level-left .icon {
+    &:hover {
+        color: $info;
+    }
+}
+
 
 /* BULMA IMPORTS */
 @import '../node_modules/bulma/bulma.sass';

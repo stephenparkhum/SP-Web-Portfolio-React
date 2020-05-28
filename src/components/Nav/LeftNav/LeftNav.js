@@ -13,12 +13,12 @@ function LeftNav() {
 
     return (
         <> 
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+        <div className="navbar-brand">
+            <a className="navbar-item" href="/">
                 <h1 className="title is-4 has-text-white-ter">Stephen Parker</h1>
             </a>
 
-            <a role="button" class="navbar-burger burger" onClick={hamburgerClick} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" className="navbar-burger burger" onClick={hamburgerClick} aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

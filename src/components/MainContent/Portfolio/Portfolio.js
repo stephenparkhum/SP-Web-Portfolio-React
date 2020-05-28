@@ -19,11 +19,13 @@ class Portfolio extends Component {
             )
         });
 
-        return ( 
+        return (
+            <> 
             <div className="Portfolio-main">
                 <h2 className="title is-4">Portfolio</h2>
                 {displayPort}
             </div>
+          </>
          );
     }
 }
