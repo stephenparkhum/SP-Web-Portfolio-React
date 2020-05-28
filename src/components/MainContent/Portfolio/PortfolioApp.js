@@ -38,19 +38,21 @@ class PortfolioApp extends Component {
                     </div>
                     <div className="media-content">
                     <div className="content">
+                        <a href={this.props.liveLink}>
                         <h2 className="title is-5 has-text-info">{this.props.title}</h2> <small>{this.props.year}</small>
+                        </a>
                         <p>
                         {this.props.description}
                         </p>
                     </div>
                     <nav className="level is-mobile">
                         <div className="level-left">
-                        <a href={this.props.liveLink} className="level-item" aria-label={`Live ${this.props.title} website`} target="_blank">
+                        <a href={this.props.liveLink} className="level-item" aria-label={`Live ${this.props.title} website`} rel="noopener noreferrer" target="_blank">
                             <span className="icon is-large">
                             <i className="fas fa-globe fa-2x" aria-hidden="true"></i>
                             </span>
                         </a>
-                        <a href={this.props.ghLink} className="level-item" aria-label={`${this.props.title} Github Repo`} target="_blank">
+                        <a href={this.props.ghLink} className="level-item" aria-label={`${this.props.title} Github Repo`} rel="noopener noreferrer" target="_blank">
                             <span className="icon is-large">
                             <i className="fab fa-github fa-2x" aria-hidden="true"></i>
                             </span>
