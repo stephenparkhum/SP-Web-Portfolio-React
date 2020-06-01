@@ -19,10 +19,12 @@ class App extends Component {
             <Route path="/" component={TopNav} />
           </header>
           <main className="container">
-            <section className="section">
-              <Route exact path="/" component={MainContent} />
-              <Route path="/contact" component={Contact} />
-              <Route path="/portfolio" component={Portfolio} />
+            <section>
+              <div className="container">
+                <Route exact path="/" component={MainContent} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/portfolio" component={Portfolio} />
+              </div>
             </section>
           </main>
           <footer className="footer">

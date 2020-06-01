@@ -30,9 +30,12 @@ html body {
     background-color: $dark;
     main.container,
     .main--content {
-        margin-bottom: 25px;
+        padding-bottom: 75px;
+
+        margin: 100px 7px 0 7px;
 
         @media (min-width: 768px) {
+            margin-top: 75px;
             margin-bottom: 75px;
         }
 
@@ -49,19 +52,19 @@ html body {
             }
         }
 
-        .section.is-small {
-            text-align: left;
-            padding-top: 45px !important;
-            padding: 3rem 12px;
+        // .section.is-small {
+        //     text-align: left;
+        //     padding-top: 45px !important;
+        //     padding: 3rem 12px;
 
-            @media only screen and (min-width: 600px) {
-                padding-top: 50px !important;
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-            } 
+        //     @media only screen and (min-width: 600px) {
+        //         padding-top: 50px !important;
+        //         padding-left: 0 !important;
+        //         padding-right: 0 !important;
+        //     } 
 
 
-        }
+        // }
     }
     
 

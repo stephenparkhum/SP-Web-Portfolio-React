@@ -24,7 +24,7 @@ class MainContent extends Component {
         }
 
         return ( 
-            <div class="main--content section is-small">
+            <div class="main--content">
                 <h1 className="title is-3 has-text-white-ter">Hi, I'm Stephen,</h1>
                 <h2 className="subtitle is-4 has-text-white-ter">I make <span className="has-text-info">websites</span> and <span className="has-text-info">apps</span>.</h2>
                 <p className="is_medium">
