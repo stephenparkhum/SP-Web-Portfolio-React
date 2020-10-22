@@ -9,13 +9,15 @@
     "@fortawesome/free-solid-svg-icons": "^5.10.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "bulma": "^0.8.2",
+    "foundation": "^4.2.1-1",
+    "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "react": "^16.9.0",
     "react-bulma-components": "^3.2.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^3.4.3",
     "react-tooltip": "^3.11.0"
   },
   "scripts": {

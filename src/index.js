@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom';
 import './index.scss';
 import App from './components/App/App';
+import 'foundation-sites/dist/css/foundation.min.css';
 
 ReactDOM.render(
     <BrowserRouter>
-    <div className="has-text-white-ter has-background-dark">
         <App />
-    </div>
     </BrowserRouter>,
 
     document.getElementById('root')

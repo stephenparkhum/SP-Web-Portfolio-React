@@ -21,9 +21,12 @@ class Portfolio extends Component {
 
         return (
             <> 
-            <div className="Portfolio-main">
-                <h2 className="title is-4">Portfolio</h2>
-                {displayPort}
+            <div className="grid-x grid-padding-x">
+                <h2>Portfolio</h2>
+                <div className="grid-x">
+                    {displayPort}
+                </div>
+
             </div>
           </>
          );
