@@ -1,15 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
-import './index.scss';
-import App from './components/App/App';
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(
-    <BrowserRouter>
-    <div className="has-text-white-ter has-background-dark">
-        <App />
-    </div>
-    </BrowserRouter>,
-
-    document.getElementById('root')
-    );
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
