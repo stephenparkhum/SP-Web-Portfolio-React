@@ -75,8 +75,12 @@
         "level":"70%"
       },
       {
+        "name":"nodeJS",
+        "level":"50%"
+      },
+      {
         "name":"Adobe XD",
-        "level":"35%"
+        "level":"50%"
       },
       {
         "name":"React",
