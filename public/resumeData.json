@@ -15,7 +15,7 @@
       "zip": "97222"
     },
     "website": "https://sparker.work",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"https://standardresume.co/r/sparkerwebdev",
     "social":[
       {
         "name":"github",
@@ -69,10 +69,16 @@
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Zirtual, LLC",
-        "title":"Virtual Assistant",
-        "years":"August 2015 - August 2019",
-        "description":"A remote position that enlists a virtual assistant to aid startups in anything I can take off their hands. In the startup world, it is crucial to find extra time to work on the product, or service, itself."
+        "company":"Glossolalia Records",
+        "title":"Staff Developer",
+        "years":"September 2018 - April 2020",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"NAC3",
+        "title":"Operations Director",
+        "years":"January 2017 - January 2019",
+        "description":"As the Operations Director for a fast-growing cryptocurrency/Fintech conference based in North America, it's imperative for me to have an unparalleled skill for organizing. As a point-of-contact for both pre-event operations, as well as the day-of, my duties are vast and always-changing! Adapting to new environments, and processes is crucial to the success of a startup employee."
       },
       {
         "company":"GrowthOps Advisory",
@@ -81,10 +87,16 @@
         "description":"As an operation associate I aide startups around the US in the logistical processes of their payroll, benefits, PTO, commission models, overarching operations, with an emphasis on startup technology."
       },
       {
-        "company":"Glossolalia Records",
-        "title":"Staff Developer",
-        "years":"September 2018 - April 2020",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Zirtual, LLC",
+        "title":"Virtual Assistant",
+        "years":"August 2015 - August 2019",
+        "description":"A remote position that enlists a virtual assistant to aid startups in anything I can take off their hands. In the startup world, it is crucial to find extra time to work on the product, or service, itself."
+      },
+      {
+        "company":"K Parks Consulting, Inc.",
+        "title":"Executive/Research Assistant",
+        "years":"June 2017 - November 2017",
+        "description":"As the executive assistant to the brilliant team at K Parks Consulting, my job is to make sure all things administrative run smoothly. Anything from booking travel and scheduling meetings, to data entry and quality checking expense reports."
       }
     ],
     "skills":[
