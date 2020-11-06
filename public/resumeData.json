@@ -66,7 +66,7 @@
         "company":"Hello World",
         "title":"Junior Staff Developer",
         "years":"September 2019 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"Current & Past Clients: DC Comics, SISU, Savers, MetalToad, MyClymb, OMSI, Nike"
       },
       {
         "company":"Glossolalia Records",
@@ -91,12 +91,6 @@
         "title":"Virtual Assistant",
         "years":"August 2015 - August 2019",
         "description":"A remote position that enlists a virtual assistant to aid startups in anything I can take off their hands. In the startup world, it is crucial to find extra time to work on the product, or service, itself."
-      },
-      {
-        "company":"K Parks Consulting, Inc.",
-        "title":"Executive/Research Assistant",
-        "years":"June 2017 - November 2017",
-        "description":"As the executive assistant to the brilliant team at K Parks Consulting, my job is to make sure all things administrative run smoothly. Anything from booking travel and scheduling meetings, to data entry and quality checking expense reports."
       }
     ],
     "skills":[
@@ -121,10 +115,6 @@
         "level":"90%"
       },
       {
-        "name":"nodeJS",
-        "level":"50%"
-      },
-      {
         "name":"Drupal 7",
         "level":"60%"
       },
@@ -138,6 +128,10 @@
       },
       {
         "name":"Laravel",
+        "level":"30%"
+      },
+      {
+        "name":"nodeJS",
         "level":"30%"
       }
     ]
