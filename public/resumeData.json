@@ -46,13 +46,19 @@
         "school":"Bloc.io",
         "degree":"Web Developer Track",
         "graduated":"September 2019",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Learned industry best practices and practical software development standards with a focus on HTML5, CSS3, JavaScript, jQuery, Node.js, React, Redux, and algorithms & data structures."
       },
       {
         "school":"Berklee College of Music Online",
         "degree":"Music Production/Technology",
         "graduated":"July 2011",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Expert training in audio engineering, mixing and mastering all within Pro Tools."
+      },
+      {
+        "school":"Lane Community College",
+        "degree":"Music Production/Audio Engineering",
+        "graduated":"N/A",
+        "description":"Music Production and Technology"
       }
     ],
     "work":[
@@ -64,8 +70,20 @@
       },
       {
         "company":"Zirtual, LLC",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
+        "title":"Virtual Assistant",
+        "years":"August 2015 - August 2019",
+        "description":"A remote position that enlists a virtual assistant to aid startups in anything I can take off their hands. In the startup world, it is crucial to find extra time to work on the product, or service, itself."
+      },
+      {
+        "company":"GrowthOps Advisory",
+        "title":"Operations Associate",
+        "years":"December 2018 - April 2019",
+        "description":"As an operation associate I aide startups around the US in the logistical processes of their payroll, benefits, PTO, commission models, overarching operations, with an emphasis on startup technology."
+      },
+      {
+        "company":"Glossolalia Records",
+        "title":"Staff Developer",
+        "years":"September 2018 - April 2020",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
@@ -75,16 +93,12 @@
         "level":"70%"
       },
       {
-        "name":"nodeJS",
-        "level":"50%"
-      },
-      {
         "name":"Adobe XD",
         "level":"50%"
       },
       {
         "name":"React",
-        "level":"50%"
+        "level":"65%"
       },
       {
         "name":"CSS",
@@ -93,6 +107,10 @@
       {
         "name":"HTML5",
         "level":"90%"
+      },
+      {
+        "name":"nodeJS",
+        "level":"50%"
       },
       {
         "name":"Drupal 7",
@@ -105,6 +123,10 @@
       {
         "name":"Wordpress",
         "level":"50%"
+      },
+      {
+        "name":"Laravel",
+        "level":"30%"
       }
     ]
   },
