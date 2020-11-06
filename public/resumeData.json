@@ -43,27 +43,27 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
+        "school":"Bloc.io",
+        "degree":"Web Developer Track",
+        "graduated":"September 2019",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"Berklee College of Music Online",
+        "degree":"Music Production/Technology",
+        "graduated":"July 2011",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
+        "company":"Hello World",
+        "title":"Junior Staff Developer",
+        "years":"September 2019 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
+        "company":"Zirtual, LLC",
         "title":"Junior bug fixer",
         "years":"March 2007 - February 2010",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
@@ -112,45 +112,33 @@
     "projects": [
       {
         "title":"Maestus (2020)",
-        "category":"My Travel Blog for my post-university travels",
+        "category":"The 2020 official site for Portland, OR band Maestus.",
         "image":"http://drive.google.com/uc?export=view&id=1eLUHomqpv4-awllk01NwouZo_wOMnHnZ",
         "url":"http://maest.us"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Glossolalia Records (2020)",
+        "category":"The 2020 re-design of the Glossolalia Records website.",
+        "image":"http://drive.google.com/uc?export=view&id=1k-7YsXAD5TgNXgML_aH6iEM0-lMRTq0p",
+        "url":"http://glossolaliarecords.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Contour",
+        "category":"Contour is an app that allows independent artists to plan, route, and book shows/tours! This app is currently in development progress!",
+        "image":"http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX",
+        "url":"https://github.com/stephenparkhum/Contour"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"genriFy",
+        "category":"genriFy allows you to search Spotify for a specific genre, and return the top artists. This is a query that can help you discover new artists, while also revisiting the ones you already love!",
+        "image":"http://drive.google.com/uc?export=view&id=1-iaWy-UimLaQAbgYRr0Dj-2aNLgerQ3q",
+        "url":"https://stephenparkhum.github.io/genriFy/"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "title":"music.query",
+        "category":"music.Query is an app that allows you to test your music knowledge around rock and heavy metal artists. Test your knowledge now and see if you can get a perfect score!",
+        "image":"http://drive.google.com/uc?export=view&id=120VMSK5vylZCn1m3wfh1vLNxcdVlsp_4",
+        "url":"https://stephenparkhum.github.io/genriFy/"
       }
     ]
   }
