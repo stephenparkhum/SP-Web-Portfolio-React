@@ -26,10 +26,10 @@ body { background: #0f0f0f; }
 
 :root {
    --main-white: #fff;
-   --main-accent: #F06000;
-   --dark-black: #2B2B2B;
+   --main-accent: #665873;
+   --dark-black: #1A2126;
    --body-background: #161415;
-   --btn-accent: #11ABB0;
+   --btn-accent: #dac27a;
 }
 
 /* ------------------------------------------------------------------ */
@@ -81,7 +81,7 @@ header .banner-text h3 {
 }
 
 header .banner-text h3 span {
-   color: var(--main-accent);
+   color: var(--btn-accent);
 }
 
 header .banner-text h3 a {
@@ -191,7 +191,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: var(--btn-accent); }
 
 
 /* ------------------------------------------------------------------ */
@@ -199,7 +199,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: var(--dark-black);
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
