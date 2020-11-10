@@ -152,7 +152,7 @@
       },
       {
         "title":"Contour",
-        "category":"Contour is an app that allows independent artists to plan, route, and book shows/tours! This app is currently in development progress!",
+        "category":"Contour is a concept app that allows independent artists to plan, route, and book shows/tours! This app is currently in development progress!",
         "image":"http://drive.google.com/uc?export=view&id=1oC_jP4HUEpuZknB2x_DqoAtMwM5cLYQX",
         "url":"https://github.com/stephenparkhum/Contour"
       },
@@ -166,7 +166,7 @@
         "title":"music.query",
         "category":"music.Query is an app that allows you to test your music knowledge around rock and heavy metal artists. Test your knowledge now and see if you can get a perfect score!",
         "image":"http://drive.google.com/uc?export=view&id=120VMSK5vylZCn1m3wfh1vLNxcdVlsp_4",
-        "url":"https://stephenparkhum.github.io/genriFy/"
+        "url":"https://stephenparkhum.github.io/quiz-app/"
       }
     ]
   }
