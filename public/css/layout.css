@@ -129,7 +129,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: var(--main-accent); }
+header .scrolldown a:hover { color: var(--btn-accent); }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -231,11 +231,11 @@ ul#nav li.current a { color: var(--btn-accent); }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: var(--main-accent);
+   background: var(--btn-accent);
 }
 #about .download .button:hover {
    background: var(--main-white);
-   color: var(--main-accent);
+   color: var(--btn-accent);
 }
 #about .download .button i {
    margin-right: 15px;
