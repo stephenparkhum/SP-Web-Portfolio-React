@@ -128,7 +128,7 @@
       },
       {
         "name":"Laravel",
-        "level":"30%"
+        "level":"25%"
       },
       {
         "name":"Shopify",
@@ -137,6 +137,10 @@
       {
         "name":"nodeJS",
         "level":"30%"
+      },
+      {
+        "name":"Adobe Magento",
+        "level":"10%"
       }
     ]
   },
